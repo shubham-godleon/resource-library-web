@@ -137,3 +137,6 @@ body {
 .page-title {
   opacity: .75 !important;
 }  
+.nav-color{
+  background-color: rgba(0,0,0,1);
+}
