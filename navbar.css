@@ -13,7 +13,7 @@
   top:0;
   transition: top 0.3s;
 }
-  
+
 .nav{
   display: inline-block;
   text-align: right;
@@ -134,3 +134,38 @@ body {
 .page-title {
   opacity: .75 !important;
 }  
+#len4{
+    position: absolute;
+    left: 90%;
+    color: rgb(145, 143, 143);
+    padding-top: 2rem;
+   
+    
+  }
+  #len4:hover{
+    position: absolute;
+    left: 90%;
+    color: white;
+    font-weight: bolder;
+    padding-top: 2rem;
+    
+  }
+  #len5{
+    position: absolute;
+    left: 85%;
+    color: rgb(145, 143, 143);
+    padding-top: 2rem;
+   
+    
+  }
+  #len5:hover{
+    position: absolute;
+    left: 85%;
+    color: white;
+    font-weight: bolder;
+    padding-top: 2rem;
+    
+  }
+ 
+
+  
