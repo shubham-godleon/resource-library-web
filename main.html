@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RESOURCE LIBRARY</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="anime style.css">
+</head>
+<body>
+    <div class="container-fluid "> 
+    	
+        <div id="navbar" 
+        class="navbar transparent navbar-inverse ">
+          <!-- <div class="container-fluid"> -->
+            <ul><img class="logo" src="RL.png"></ul>
+            <ul class="nav navbar-nav ">
+              <li><a id="len1" class="hoverable" href="#">Home</a></li>
+              <a id="len5" class="hoverable" href="#">About</a>
+              <a id="len4" class="hoverable" href="#">Contact Us</a>
+            </ul> 
+
+
+          <!-- </div> -->
+          </div>
+    </div>
+   
+</br></br></br>
+      <div class="css-slideshow">
+        <figure>
+            <img src="languages.png" alt="ML & AI" width="400" height="400"/>
+        </figure>
+        <figure>
+            <img src="android.png" alt="Android" width="400" height="400"/>
+        </figure>
+        <figure>
+            <img src="web.png" alt="Languages" width="400" height="400"/>
+        </figure>
+        <figure>
+            <img src="ml.png" alt="WebDev" width="400" height="400"/>
+        </figure>
+    <figure>
+            <img src="toolbox.png" alt="AI & ML" width="400" height="400"/>
+        </figure>
+        <figure>
+            <img src="courses.png" alt="College courses" width="400" height="400"/>
+        </figure>
+        <figure>
+            <img src="languages.png" alt="WebDev" width="400" height="400"/>
+        </figure>
+        <figure>
+            <img src="web.png" alt="Android" width="400" height="400"/>
+        </figure>
+      </div> 
+      <script type="text/javascript" src="navbar.js"></script>
+      <script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+</body>
+</html>
